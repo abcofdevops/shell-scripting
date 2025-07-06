@@ -1,0 +1,5 @@
+#!/bin/bash
+word=$1
+char=$2
+count=$(echo "$word" | grep -o "$char" | wc -l)
+echo $count
