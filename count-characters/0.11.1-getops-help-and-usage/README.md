@@ -11,7 +11,7 @@ bash script.sh --help
 ```
 
 
-## 🧩 Concepts Introduced
+## Concepts
 
 - `[[ "$1" == "--help" ]]` syntax
 - Good CLI design practice

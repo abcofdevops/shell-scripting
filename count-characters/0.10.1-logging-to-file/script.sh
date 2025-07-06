@@ -1,6 +1,8 @@
 #!/bin/bash
 
-log() { echo "[$1] $2"; >> script.log }
+log() { 
+  echo "[$1]  $2;" >> script.log 
+}
 
 validation() {
   local w=$1
@@ -23,7 +25,7 @@ count_char() {
   # Log INFO
   log "INFO" "Counting $char in $word"
   echo $count
-  log "INFO" "$word has $count \'$char\'"
+  log "INFO" "$word has $count '$char'"
 }
 
 word=${1:-$(read -p "Enter word: " w && echo $w)}
@@ -31,3 +33,4 @@ char=${2:-$(read -p "Enter character: " c && echo $c)}
 
 validation $word $char
 count_char $word $char
+
