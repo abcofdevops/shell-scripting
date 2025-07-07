@@ -58,3 +58,5 @@ If you run without arguments, the script will prompt you interactively.
 All actions and errors are logged to `countchar.log` in the current directory.
 
 ## License
+
+MIT License
