@@ -1,0 +1,12 @@
+#!/bin/bash
+source ./helper.sh
+source ./utils.sh
+source ./functions.sh
+
+trap 'echo "Bye"; log "ERROR" "Interrupted/Exit"; usage; exit 1' INT 
+
+main() {
+	validation $@
+}
+
+main "$@"

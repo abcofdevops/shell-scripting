@@ -1,0 +1,17 @@
+#!/bin/bash
+source ./helper.sh
+source ./utils.sh
+source ./functions.sh
+
+trap 'echo "Bye"; log "ERROR" "Interrupted/Exit"; usage; exit 1' INT 
+
+word=${1:-$(read -p "Enter word: " w && echo $w)}
+char=${2:-$(read -p "Enter character: " c && echo $c)}
+
+main() {
+while true; do 
+validate
+done
+}
+
+main "$@"
