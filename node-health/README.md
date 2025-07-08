@@ -60,7 +60,6 @@ chmod +x nodehealth.sh
     - CPU: 0.22 per core
     - Memory: 67%
     - Disk: 45%
-    - Zombies: 0
     - Uptime: 1347 seconds
     ```
 
@@ -70,7 +69,6 @@ chmod +x nodehealth.sh
     ERROR
     System issues detected:
     - High memory usage: 95% (threshold: 90%)
-    - Zombie processes detected: 2
     ```
 
 ## About `bc -l`
