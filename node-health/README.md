@@ -1,4 +1,4 @@
-# nodehealth.sh — Node Health Check Script
+# nodehealth.sh - Node Health Check Script
 
 A simple Bash script to check the health of a Linux node by evaluating system metrics:
 
