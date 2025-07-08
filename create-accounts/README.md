@@ -37,12 +37,20 @@ asmith,Secret456
     - Forces password change at first login.
 
 ## Usage
-1. Make the script executable:
+1. **Download the script:**
+   ```bash
+   wget https://raw.githubusercontent.com/abcofdevops/shell-scripting/main/create-accounts/create_users.sh
+
+   # or
+
+   curl -O https://raw.githubusercontent.com/abcofdevops/shell-scripting/main/create-accounts/create_users.sh
+
+2. **Make the script executable:**
     ```bash
     chmod +x create_users.sh
     ```
 
-2. Run the script as root or with `sudo`
+3. **Run the script as root or with `sudo`**
     ```bash
     sudo ./create_users.sh
     ```

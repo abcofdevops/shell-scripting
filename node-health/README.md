@@ -30,19 +30,29 @@ It returns `OK` or `ERROR`, and gives explanations when run with the `explain` a
 
 ## Usage
 
-Make the script executable:
+1. **Download the script**:
+   ```bash
+   wget https://raw.githubusercontent.com/abcofdevops/shell-scripting/main/node-health/nodehealth.sh
 
-```bash
-chmod +x nodehealth.sh
-```
+   # or
 
-```bash
-# Basic usage
-./nodehealth.sh
+   curl -O https://raw.githubusercontent.com/abcofdevops/shell-scripting/main/node-health/nodehealth.sh
+   ```
 
-# With explanation
-./nodehealth.sh explain
-```
+2. **Make it executable**:
+    ```bash
+    chmod +x nodehealth.sh
+    ```
+
+3. **Basic Usage**
+    ```bash
+    ./nodehealth.sh
+    ```
+
+4.  **With explanation**
+    ```bash
+    ./nodehealth.sh explain
+    ```
 
 ## Sample Output
 

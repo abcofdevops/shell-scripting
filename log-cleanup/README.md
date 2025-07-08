@@ -10,14 +10,22 @@ This Bash script automates log file maintenance for your application by:
 
 ## Setup
 
-1. **Add the script file** in this location `/usr/local/bin/log_rotate.sh`
+1. **Download the script:**
+   ```bash
+   wget https://raw.githubusercontent.com/abcofdevops/shell-scripting/main/log-cleanup/log_cleanup.sh
 
-2. **Make it executable**:
+   # or
+
+   curl -O https://raw.githubusercontent.com/abcofdevops/shell-scripting/main/log-cleanup/log_cleanup.sh
+
+2. **Add the script file** in this location `/usr/local/bin/log_rotate.sh`
+
+3. **Make it executable**:
     ```bash
     sudo chmod +x /usr/local/bin/log_rotate.sh
     ```
 
-3. **Ensure the log directory exists**:
+4. **Ensure the log directory exists**:
     ```bash
     sudo mkdir -p /var/log/myapp
     sudo touch /var/log/myapp/log_rotation.log
