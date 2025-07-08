@@ -121,7 +121,7 @@ cd service-monitor
 
 ```
 shell-scripting/
-├── count-characters/           # Text processing fundamentals
+├── count-characters/          # Text processing fundamentals
 │   ├── 0.01-command-line/     # Command line basics
 │   ├── 0.02-script/           # Script fundamentals
 │   ├── 0.03-variables/        # Variable handling
@@ -138,7 +138,7 @@ shell-scripting/
 │   ├── 0.14-cli-tool/         # CLI development
 │   ├── 1.0-countchar/         # Practical implementation
 │   └── 1.1-countchar-getopts/ # Advanced implementation
-├── create-accounts/            # User management scripts
+├── create-accounts/           # User management scripts
 ├── log-cleanup/               # Log maintenance utilities
 ├── node-health/               # System health monitoring
 └── service-monitor/           # Service management tools
@@ -207,7 +207,7 @@ We welcome contributions to improve the learning materials:
 - [Bash-it](https://github.com/Bash-it/bash-it) - Bash framework
 - [DevOps Tools](https://github.com/topics/devops) - Related DevOps resources
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 - **Permission Denied**: `chmod +x script_name.sh`
